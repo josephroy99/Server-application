@@ -1,3 +1,4 @@
 FROM nginx
-COPY www/ ./ 
+COPY www/ .
 COPY etc/nginx/nginx.conf /etc/nginx/
+RUN ls
