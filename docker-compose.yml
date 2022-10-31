@@ -3,3 +3,7 @@ services:
                 build: ./nginx-server
                 ports:
                         - "80:80"
+        web-vue:
+                build: ./vue
+                ports:
+                        - "8080:80"
