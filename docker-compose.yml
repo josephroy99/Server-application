@@ -4,6 +4,6 @@ services:
                 ports:
                         - "80:80"
         web-vue:
-                build: ./vue
+                build: ./vite-project
                 ports:
                         - "8080:80"
