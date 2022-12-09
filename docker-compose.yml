@@ -4,6 +4,6 @@ services:
                 ports:
                         - "80:80"
         nginx:
-                build: ./vite-project
+                build: ./nginx
                 ports:
                         - "8080:80"
