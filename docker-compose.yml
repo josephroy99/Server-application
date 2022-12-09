@@ -7,7 +7,3 @@ services:
                 build: ./vite-project
                 ports:
                         - "8080:80"
-        link-word:
-                build: ./link-word
-                ports:
-                        - "8081:80"
