@@ -1,9 +1,9 @@
 services:
-        web:
+        telescopeCAD:
                 build: ./telescopeCAD
                 ports:
                         - "80:80"
-        web-vue:
+        nginx:
                 build: ./vite-project
                 ports:
                         - "8080:80"
