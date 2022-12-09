@@ -1,5 +1,5 @@
 services:
-        telescopeCAD:
+        telescope-cad:
                 build: ./telescopeCAD
                 ports:
                         - "80:80"
