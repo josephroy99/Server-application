@@ -4,6 +4,6 @@ services:
                 ports:
                         - "80:80"
         nginx:
-                build: ./nginx
+                build: ./nginx-server
                 ports:
                         - "8080:80"
