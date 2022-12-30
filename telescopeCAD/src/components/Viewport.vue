@@ -11,7 +11,7 @@
         name: 'Viewport',
         props: {
             elements: {
-                type: Object
+                type: Array
             }
         },
         components: {
